@@ -95,6 +95,11 @@ class AdminPostsController extends Controller
     public function edit($id)
     {
         //
+        $post = Post::findOrFail($id);
+
+        $categories = Category::lists('name','id')->all();
+
+        return view('admin.posts.edit', compact('post', 'categories'));
     }
 
     /**
@@ -107,6 +112,29 @@ class AdminPostsController extends Controller
     public function update(Request $request, $id)
     {
         //
+
+        $post = Post::findOrFail($id);
+
+        $input = $request->all();
+
+        if($file = $request->file('photo_id')){
+
+            $name = time() . $file->getClientOriginalName();
+
+            $file->move('images', $name);
+
+            $photo = Photo::create(['file' => $name]);
+
+            $input['photo_id'] = $photo->id;
+
+
+        }
+
+        Auth::user()->post()->whereId($id)->first()->update($input);
+
+        Session::flash('admin_post_update_msg', "The post ({$post->id}) has been updated !!!");
+
+        return redirect(route('admin.posts.index'));
     }
 
     /**
@@ -118,5 +146,25 @@ class AdminPostsController extends Controller
     public function destroy($id)
     {
         //
+
+        //
+        $post = Post::findOrfail($id);
+
+        $post_id = $post->id;
+
+        if($post->photo) {
+
+            if (file_exists(public_path() . $post->photo->file)) {
+
+                unlink(public_path() . $post->photo->file);
+
+            }
+        }
+
+        $post->delete();
+
+        Session::flash('admin_post_delete_msg', "The post ({$post_id}) has been deleted !!!");
+
+        return redirect(route('admin.posts.index'));
     }
 }

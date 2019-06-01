@@ -174,7 +174,11 @@ class AdminUsersController extends Controller
 
         $user_email = $user->email;
 
-        unlink(public_path(). $user->photo->file);
+        if($user->photo) {
+
+            unlink(public_path() . $user->photo->file);
+
+        }
 
         $user->delete();
 
