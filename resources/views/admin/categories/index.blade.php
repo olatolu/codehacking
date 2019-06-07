@@ -53,7 +53,7 @@
         </div>
 
         <div class="col-sm-8">
-            @if($categories)
+            @if(count($categories) > 0)
 
                 <table class="table">
                     <thead>
@@ -92,11 +92,16 @@
                             </td>
                         </tr>
 
+
                     @endforeach
                     </tbody>
 
 
                 </table>
+
+            @else
+
+                <p>No category found!</p>
 
 
             @endif

@@ -21,8 +21,16 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/post/{id}', ['as'=>'home.post', 'uses'=>'AdminPostsController@post']);
+
 
 Route::group(['middleware' => 'admin'], function(){
+
+    Route::get('/admin', function (){
+
+        return view('admin.index');
+
+    });
 
     Route::resource('/admin/users', 'AdminUsersController');
 
@@ -30,10 +38,16 @@ Route::group(['middleware' => 'admin'], function(){
 
     Route::resource('/admin/categories', 'AdminCategoriesController');
 
+    Route::resource('/admin/media', 'AdminMediasController');
+    //Route::get('admin/media/upload', ['as'=>'admin.media.upload', 'use'=>'AdminMediasController@upload']);
+
+    Route::resource('/admin/comments', 'PostCommentsController');
+    Route::resource('/admin/comment/reply', 'CommentRepliesController');
+
 });
 
-Route::get('/admin', function (){
+Route::group(['middleware' => 'auth'], function(){
 
-   return view('admin.index');
+    Route::post('comment/reply', 'CommentRepliesController@createReply');
 
 });

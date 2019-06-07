@@ -34,6 +34,7 @@
                   <th>Title</th>
                   <th>User</th>
                   <th>Category</th>
+                  <th>Comments</th>
                   <th>Created</th>
                   <th>Updated</th>
                   <th>Action</th>
@@ -45,9 +46,20 @@
                 <tr>
                   <td>{{$post->id}}</td>
                   <td><img width="60" src="{{$post->photo ? $post->photo->file : 'http://placehold.it/30x30'}}" alt=""></td>
-                  <td><a href="{{route('admin.posts.edit', $post->id)}}">{{$post->title}}</a></td>
+                  <td><a href="{{route('home.post', $post->slug)}}" target="_blank">{{$post->title}}</a></td>
                   <td>{{$post->user->name}}</td>
                   <td>{{$post->category ? $post->category->name : "Uncategorized"}}</td>
+                  <td>
+                      @if(count($post->comments) > 0)
+                          <a href="{{route('admin.comments.show', $post->id)}}">View Comments</a>
+
+                      @else
+
+                          No Comment
+
+                      @endif
+
+                  </td>
                   <td>{{$post->created_at->diffForHumans()}}</td>
                   <td>{{$post->updated_at->diffForHumans()}}</td>
                   <td><a href="{{route('admin.posts.edit', $post->id)}}" class="btn btn-info btn-sm" style="display:inline; margin-right: 5px;">
@@ -70,7 +82,12 @@
               </tbody>
             </table>
 
+          <div class="row">
+              <div class="col-sm-6 col-sm-offset-5">
 
+                  {{$posts->render()}}
+              </div>
+          </div>
 
 
     @endif
