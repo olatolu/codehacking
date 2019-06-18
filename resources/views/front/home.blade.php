@@ -44,7 +44,7 @@
 
      @else
 
-        <p>No Posts to Show</p>
+        <p>No Posts to Show here</p>
 
     @endif
 

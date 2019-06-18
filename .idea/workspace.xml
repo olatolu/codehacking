@@ -2,12 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a099c5e-828b-4e60-9fc1-80d25fa9392e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/shares/5d09552d52bff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shares/thumbs/5d09552d52bff.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codehacking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codehacking.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1/5cfd648600dc6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1/thumbs/5cfd648600dc6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (63 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (64 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (68 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (69 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (70 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (71 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122890Akinolu Olateru Naming (73 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (74 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (75 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (76 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (77 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (78 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (79 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (80 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (81 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122891Akinolu Olateru Naming (82 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (83 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (84 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (85 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (86 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (87 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (88 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (89 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (90 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (91 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122892Akinolu Olateru Naming (92 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (93 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (94 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (95 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (96 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (97 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (98 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122893Akinolu Olateru Naming (99 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (100 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (101 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (102 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (103 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (104 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (105 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (106 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (107 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (108 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (109 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (110 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122894Akinolu Olateru Naming (111 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (112 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (113 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (114 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (115 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (116 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (117 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (118 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (119 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122895Akinolu Olateru Naming (120 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (121 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (122 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (127 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (128 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (129 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (130 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (131 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (134 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (135 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122896Akinolu Olateru Naming (139 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (143 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (145 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (146 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (147 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (150 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (152 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (153 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (154 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (155 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560122897Akinolu Olateru Naming (156 of 156).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560696826Design Thinking  Ad-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1560877628E-learn Slider.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1560892736E-learn Slider (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shares/5cfd5797c19bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shares/thumbs/5cfd5797c19bd.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +176,7 @@
           <entry key="env" value="27" />
           <entry key="html" value="65" />
           <entry key="js" value="341" />
-          <entry key="json" value="37" />
+          <entry key="json" value="41" />
           <entry key="php" value="19479" />
           <entry key="scss" value="85" />
         </counts>
@@ -105,7 +186,7 @@
           <entry key=".env file" value="27" />
           <entry key="Blade" value="8798" />
           <entry key="HTML" value="65" />
-          <entry key="JSON" value="37" />
+          <entry key="JSON" value="41" />
           <entry key="JavaScript" value="341" />
           <entry key="PHP" value="10681" />
           <entry key="SCSS" value="85" />
@@ -115,20 +196,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-310">
-              <caret line="150" column="68" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -226,8 +298,8 @@
         <option value="$PROJECT_DIR$/resources/views/front/post.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentRepliesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -299,7 +371,6 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
       <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
-      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
@@ -329,18 +400,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
-      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
-      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
-      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
-      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
-      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -366,12 +427,7 @@
             <path>
               <item name="codehacking" type="b2602c69:ProjectViewProjectNode" />
               <item name="codehacking" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codehacking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codehacking" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,12 +507,12 @@
       <workItem from="1560478237941" duration="602000" />
       <workItem from="1560504109437" duration="4383000" />
       <workItem from="1560556624487" duration="48000" />
-      <workItem from="1560693648620" duration="25859000" />
+      <workItem from="1560693648620" duration="27723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199711000" />
+    <option name="totallyTimeSpent" value="201575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +535,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3288719" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -840,17 +896,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-310">
           <caret line="150" column="68" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
