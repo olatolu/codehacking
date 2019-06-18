@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\URL;
 
 class PostCommentsController extends Controller
 {
@@ -39,7 +41,7 @@ class PostCommentsController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
      */
     public function store(Request $request)
     {
@@ -61,7 +63,9 @@ class PostCommentsController extends Controller
 
         $request->session()->flash('comment_update_msg', 'Your comment has been submitted for moderation');
 
-        return redirect()->back();
+        // return redirect()->back();
+
+        return Redirect::to(URL::previous() . "#comments");
     }
 
     /**

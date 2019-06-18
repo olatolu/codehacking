@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\URL;
 
 class CommentRepliesController extends Controller
 {
@@ -62,7 +64,9 @@ class CommentRepliesController extends Controller
 
         $request->session()->flash('comment_update_msg', 'Your reply has been submitted for moderation');
 
-        return redirect()->back();
+        //return redirect()->back();
+
+        return Redirect::to(URL::previous() . "#comments");
     }
     /**
      * Display the specified resource.

@@ -23,7 +23,7 @@ class AdminPostsController extends Controller
     {
         //
 
-        $posts = Post::paginate(2);
+        $posts = Post::orderBy('id', 'desc')->paginate(5);
 
         return view('admin.posts.index', compact('posts'));
     }
@@ -166,16 +166,5 @@ class AdminPostsController extends Controller
         Session::flash('admin_post_delete_msg', "The post ({$post_id}) has been deleted !!!");
 
         return redirect(route('admin.posts.index'));
-    }
-
-    public function post($slug){
-
-        //$post = Post::findBySlugOrIdOrFail($idOrSlug);
-
-        $post = Post::findBySlugOrFail($slug);
-
-        $comments = $post->comments()->whereIsActive(1)->get();
-
-        return view('post', compact('post', 'comments'));
     }
 }

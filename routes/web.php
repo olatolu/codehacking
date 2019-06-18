@@ -11,25 +11,31 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+
+//Route::get('/', function (){
+//
+//    if(Auth::check()){
+//
+//        return view('front.home');
+//
+//    }else {
+//
+//        return view('front.welcome');
+//
+//    }
+//
+//});
 
 Route::auth();
 
 Route::get('/logout', 'Auth\LoginController@logout');
 
-Route::get('/home', 'HomeController@index');
-
-Route::get('/post/{id}', ['as'=>'home.post', 'uses'=>'AdminPostsController@post']);
+Route::get('/post/{id}', ['as'=>'home.post', 'uses'=>'HomeController@post']);
 
 Route::group(['middleware' => 'admin'], function(){
 
-    Route::get('/admin', function (){
-
-        return view('admin.index');
-
-    });
+    Route::get('/admin', 'AdminController@index');
 
     Route::resource('/admin/users', 'AdminUsersController', ['names' => [
 
